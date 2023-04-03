@@ -10,6 +10,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <header id="header-style">
+
+    <div>
+    
+
+
+    </div>
+
+    <div id="h1-div">
+
+       <h1>
+        First website header!!!
+        </h1>
+
+      </div>
+
+    <div id="burger-div">
+
+      <button id="burger-menu-button">
+        test
+       </button>
+
+     </div>
+
+      </header>
+
       <main className="main-container">
        <h2>
         hello world
