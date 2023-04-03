@@ -1,8 +1,7 @@
-import '@/styles/globals.css'
-import React from 'react';
 import "@/styles/burger.css"
+import "@/styles/globals.css"
+import "@/styles/menu.css"
 
 export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+    return <Component {...pageProps} />
 }
-

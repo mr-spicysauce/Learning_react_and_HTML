@@ -1,7 +1,10 @@
 import Burger from "@/components/Burger"
+import Menu from "@/components/Menu"
 import Head from "next/head"
+import { useState } from "react"
 
 export default function Home() {
+    const [menu_open, set_menu_open] = useState(false)
     return (
         <>
             <Head>
@@ -28,6 +31,8 @@ export default function Home() {
                     <Burger></Burger>
                 </div>
             </header>
+
+            <Menu open={menu_open}></Menu>
 
             <main className="main-container"></main>
         </>
