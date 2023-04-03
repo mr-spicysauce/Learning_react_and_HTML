@@ -28,11 +28,13 @@ export default function Home() {
                 </div>
 
                 <div id="burger-div">
-                    <Burger></Burger>
+                    <Burger set_open={set_menu_open} open={menu_open}></Burger>
                 </div>
             </header>
 
-            <Menu open={menu_open}></Menu>
+            <div>
+                <Menu open={menu_open}></Menu>
+            </div>
 
             <main className="main-container"></main>
         </>

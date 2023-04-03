@@ -3,13 +3,14 @@
     flex-direction: column;
     justify-content: center;
     background: rgb(0, 21, 58);
-    height: 100vh;
+    height: 100%;
     text-align: left;
     padding: 2rem;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transform: translateX(+100%);
 }
 @media (max-width: 600px) {
     .burger-menu {
@@ -37,4 +38,8 @@
         font-size: 1.5rem;
         text-align: center;
     }
+}
+
+.burger-menu.open {
+    transform: translateX(0%);
 }
