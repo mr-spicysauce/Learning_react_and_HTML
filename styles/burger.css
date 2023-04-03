@@ -1,0 +1,26 @@
+.burger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 64px;
+    height: 64px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+}
+
+.burger:focus {
+    outline: none;
+}
+
+.burger div {
+    width: 64px;
+    height: 8px;
+    background: rgb(226, 235, 255);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+}
