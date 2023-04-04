@@ -11,6 +11,7 @@
     right: 0;
     transition: transform 0.2s ease-in-out;
     transform: translateX(+100%);
+    gap: 32px;
 }
 @media (max-width: 600px) {
     .burger-menu {
@@ -19,14 +20,19 @@
 }
 
 .burger-menu a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
     font-size: 2rem;
     text-transform: uppercase;
-    padding: 2rem 0;
+    padding: 8px 0;
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: rgb(255, 255, 255);
     text-decoration: none;
     transition: color 0.3s linear;
+    gap: 32px;
 }
 
 .burger-menu a:hover {
@@ -44,17 +50,11 @@
     transform: translateX(0%);
 }
 
-.burger-menu a img {
+.burger-menu a img,
+.burger-menu a span {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 32px;
-    width: 32px;
-}
-
-.burger-menu-github {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    height: 64px;
+    width: 64px;
 }

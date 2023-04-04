@@ -2,7 +2,7 @@ export default function Menu({ open }) {
     return (
         <div className={open ? "burger-menu open" : "burger-menu"}>
             <a href="https://genrandom.com/cats/">
-                <span role="img">🐱</span>
+                <img src="/emojis/CatTwitterEmoji.png"></img>
                 Random cat website
             </a>
 
@@ -10,12 +10,12 @@ export default function Menu({ open }) {
                 className="burger-menu-github"
                 href="https://github.com/mr-spicysauce/Learning_react_and_HTML"
             >
-                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></img>
+                <img src="/emojis/GitHubLogo.png"></img>
                 <div>GitHub Page</div>
             </a>
 
             <a href="./" className="burger-menu-github">
-                <span role="img">☎️</span>
+                <img src="/emojis/PhoneTwitterEmoji.png"></img>
                 contact us
             </a>
         </div>

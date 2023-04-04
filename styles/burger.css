@@ -9,6 +9,7 @@
     cursor: pointer;
     padding: 0;
     z-index: 10;
+    transition: all 0.1s linear;
 }
 
 .burger:focus {
@@ -20,7 +21,7 @@
     height: 8px;
     background: rgb(226, 235, 255);
     border-radius: 10px;
-    transition: all 0.3s linear;
+    transition: all 0.1s linear;
     position: relative;
     transform-origin: 1px;
 }
@@ -33,6 +34,7 @@
 #middle-burger {
     transform: translate(-500px);
     background-color: rgba(255, 255, 255, 0);
+    transition: all 0.2s linear;
 }
 
 #bottom-burger {
