@@ -24,7 +24,7 @@ export default function Home() {
                 <div></div>
 
                 <div id="h1-div">
-                    <h1>First website header!!!</h1>
+                    <h1>Learning React Website!!!</h1>
                 </div>
 
                 <div id="burger-div">

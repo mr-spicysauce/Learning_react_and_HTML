@@ -43,3 +43,18 @@
 .burger-menu.open {
     transform: translateX(0%);
 }
+
+.burger-menu a img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+}
+
+.burger-menu-github {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
