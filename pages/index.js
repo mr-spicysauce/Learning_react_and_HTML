@@ -61,18 +61,18 @@ export default function Home() {
                         website in preparation for my future collage assignment.
                     </p>
                     <p>
-                        One thing that stands out to me the most is how the "id"
-                        and "className" work and how it can be called in any
-                        file. I do most of my coding in the Godot game engine
-                        and if I want to use a function from another script I
-                        have to reference the script file path and save it as a
-                        variable then call the function. However if I want to
-                        add the className "main-container" to a div I can just
-                        do that without having to reference globals.css! All I
-                        need to do is import "@/styles/globals.css" into the
-                        main app.js script and it will be loaded for everything!
-                        This helps to stop massive, ugly and un-optimized code
-                        such as this:
+                        One good thing that stands out to me the most is how the
+                        "id" and "className" work and how it can be called in
+                        any file. I do most of my coding in the Godot game
+                        engine and if I want to use a function from another
+                        script I have to reference the script file path and save
+                        it as a variable then call the function. However if I
+                        want to add the className "main-container" to a div I
+                        can just do that without having to reference
+                        globals.css! All I need to do is import
+                        "@/styles/globals.css" into the main app.js script and
+                        it will be loaded for everything! This helps to stop
+                        massive, ugly and un-optimized code such as this:
                     </p>
                     <img
                         width={"800px"}
@@ -85,6 +85,15 @@ export default function Home() {
                         wanted to! Its only there for origination or for making
                         a program more secure as you can import the css file on
                         a per script bases so only menu.js can access menu.css.
+                    </p>
+                    <p>
+                        One this I don't like about the class and ID system is
+                        that if I want to give something specific specific
+                        properties I have to make a new ID for each one. However
+                        as I am typing this I have been informed by EnderDev
+                        that for things like images I can set the width and
+                        height in the same section that I can ID's and
+                        classNames
                     </p>
                 </div>
             </main>
