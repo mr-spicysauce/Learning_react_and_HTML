@@ -76,6 +76,16 @@ h6 {
     gap: 16px;
 }
 
+#header1-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 32px;
+}
+
 html,
 body,
 #__next {
@@ -95,12 +105,20 @@ body,
     height: 128px;
 
     color: rgb(231, 255, 255);
-    background-color: rgb(8, 4, 12);
+    background-color: rgb(4, 5, 12);
     margin-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
 }
 
+#paragraph-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    max-height: 100%;
+    font-size: 24px;
+    gap: 16px;
+}
 #header-style h1 {
     font-size: 64px;
 }

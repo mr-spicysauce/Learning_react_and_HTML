@@ -36,7 +36,58 @@ export default function Home() {
                 <Menu open={menu_open}></Menu>
             </div>
 
-            <main className="main-container"></main>
+            <main className="main-container">
+                <div id="header1-container">
+                    <img
+                        width={"300"}
+                        height={"96"}
+                        src="/emojis/ReactLogos.png"
+                    ></img>
+                    <h2>Initial Thoughts And Ideas</h2>
+                </div>
+
+                <div id="paragraph-container">
+                    <p>
+                        With my very limited html knowledge, most of which was
+                        learnt within an hour or 2 making{" "}
+                        <a href="https://github.com/mr-spicysauce/dumb-Website-tests">
+                            this website
+                        </a>
+                        , I have found react to be very intuitive and simple.
+                        With the help of{" "}
+                        <a href="https://github.com/EnderDev">this epic man</a>,
+                        I was able to learn the basics of react in just 3 days
+                        and I was able to make this basic but professional
+                        website in preparation for my future collage assignment.
+                    </p>
+                    <p>
+                        One thing that stands out to me the most is how the "id"
+                        and "className" work and how it can be called in any
+                        file. I do most of my coding in the Godot game engine
+                        and if I want to use a function from another script I
+                        have to reference the script file path and save it as a
+                        variable then call the function. However if I want to
+                        add the className "main-container" to a div I can just
+                        do that without having to reference globals.css! All I
+                        need to do is import "@/styles/globals.css" into the
+                        main app.js script and it will be loaded for everything!
+                        This helps to stop massive, ugly and un-optimized code
+                        such as this:
+                    </p>
+                    <img
+                        width={"800px"}
+                        height={"100px"}
+                        src="/emojis/BadGodotCode.png"
+                    ></img>
+                    <p>
+                        I don't even need a globals.css to reference it
+                        anywhere, I can reference menu.css from anywhere if I
+                        wanted to! Its only there for origination or for making
+                        a program more secure as you can import the css file on
+                        a per script bases so only menu.js can access menu.css.
+                    </p>
+                </div>
+            </main>
         </>
     )
 }

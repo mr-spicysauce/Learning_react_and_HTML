@@ -23,11 +23,11 @@
     border-radius: 10px;
     transition: all 0.1s linear;
     position: relative;
-    transform-origin: 1px;
+    transform-origin: 0px;
 }
 
 #top-burger {
-    transform: rotate(45deg);
+    transform: rotate(42.5deg);
     background-color: rgb(255, 255, 255);
 }
 
@@ -38,6 +38,6 @@
 }
 
 #bottom-burger {
-    transform: rotate(-45deg);
+    transform: rotate(-42.5deg);
     background-color: rgb(255, 255, 255);
 }
