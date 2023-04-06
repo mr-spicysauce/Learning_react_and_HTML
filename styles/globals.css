@@ -76,7 +76,7 @@ h6 {
     gap: 16px;
 }
 
-#header1-container {
+.header-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -111,13 +111,12 @@ body,
     padding-right: 32px;
 }
 
-#paragraph-container {
+.paragraph-container {
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    max-height: 100%;
     font-size: 24px;
-    gap: 16px;
+    gap: 32px;
 }
 #header-style h1 {
     font-size: 64px;
