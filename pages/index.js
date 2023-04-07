@@ -24,7 +24,7 @@ export default function Home() {
             <header id="header-style">
                 <div></div>
 
-                <div id="h1-div">
+                <div className="h1-div">
                     <h1>Learning React Website!!!</h1>
                 </div>
 

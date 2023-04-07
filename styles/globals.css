@@ -126,11 +126,19 @@ body,
     flex: 1 1 0%;
 }
 
-#header-style > #h1-div {
+#header-style > .h1-div {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    width: 500px;
+    flex: max-content;
+}
+
+#header-style > .h2-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     width: 500px;
     flex: max-content;
 }

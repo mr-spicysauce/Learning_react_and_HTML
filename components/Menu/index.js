@@ -14,7 +14,7 @@ export default function Menu({ open }) {
                 <div>GitHub Page</div>
             </a>
 
-            <a href="./" className="burger-menu-github">
+            <a href="/contact" className="burger-menu-github">
                 <img src="/emojis/PhoneTwitterEmoji.png"></img>
                 Contact me!
             </a>
