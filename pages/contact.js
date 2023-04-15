@@ -9,13 +9,17 @@ export default function ContactMePage() {
             </header>
 
             <main className="main-container">
-                <div className="header-container">
-                    {" "}
-                    <h1>Contact Me!</h1>
-                </div>
-
                 <div className="paragraph-container">
                     <p>(This is just a theoretical page)</p>
+                </div>
+
+                <div className="header-container">
+                    <img
+                        width={"70"}
+                        height={"70"}
+                        src="/emojis/PhoneTwitterEmoji.png"
+                    ></img>
+                    <h1>Contact Me!</h1>
                 </div>
 
                 <div className="header-container">
@@ -46,12 +50,20 @@ export default function ContactMePage() {
                 </div>
 
                 <div className="header-container">
-                    {" "}
+                    <img
+                        width={"70"}
+                        height={"70"}
+                        src="/emojis/NerdEmoji.png"
+                    ></img>
                     <h1>Personal Website</h1>
                 </div>
 
                 <div className="header-container">
-                    {" "}
+                    <img
+                        width={"80"}
+                        height={"60"}
+                        src="/emojis/GmailLogo.png"
+                    ></img>
                     <h1>Email</h1>
                 </div>
             </main>
